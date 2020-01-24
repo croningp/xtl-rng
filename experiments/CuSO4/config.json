@@ -1,0 +1,22 @@
+{
+  "number_of_reactions": 100,
+  "images_per_reaction": 200,
+  "time_between_images": 600,
+  "reagents":
+  {
+    "Cu":
+    {
+      "contents":["CuSo4_10g", "H2O_300ml"],
+      "dispense": true,
+      "volume": 4,
+      "time": 0
+    },
+    "Acetone":
+    {
+      "contents":["Acetone", "300_ml"],
+      "dispense": true,
+      "volume": 2.0 ,
+      "time": 2
+    }
+  }
+}

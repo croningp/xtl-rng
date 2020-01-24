@@ -1,0 +1,22 @@
+{
+  "number_of_reactions": 100,
+  "images_per_reaction": 200,
+  "time_between_images": 600,
+  "reagents":
+  {
+    "Co":
+    {
+      "contents":["CoCl2.6H2O_1.925g", "MeOH_200ml"],
+      "dispense": true,
+      "volume": 1,
+      "time": 0
+    },
+    "hmpH":
+    {
+      "contents":["NaOMe_0.407g", "hmpH_0.780ml", "MeOH_200ml"],
+      "dispense": true,
+      "volume": 1,
+      "time": 2
+    }
+  }
+}

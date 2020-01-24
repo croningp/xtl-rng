@@ -1,0 +1,41 @@
+{
+  "io": {
+      "port": "/dev/ttyUSB0",
+      "baudrate": 9600,
+      "timeout": 1
+  },
+  "default":{
+      "volume": 5,
+      "micro_step_mode": 2,
+      "top_velocity":48000,
+      "initialize_valve_position": "I"
+  },
+
+  "pumps": {
+      "p1": {
+        "switch": "0",
+        "volume": 5,
+        "top_velocity": 28000
+      },
+      "W": {
+        "switch": "1",
+        "volume": 5,
+        "top_velocity": 24000
+      },
+      "Mn": {
+        "switch": "2",
+        "volume": 5,
+        "top_velocity": 24000
+      },
+      "p4": {
+        "switch": "3",
+        "volume": 5,
+        "top_velocity": 30000
+      },
+      "H2O": {
+        "switch": "4",
+        "top_velocity": 10000,
+        "volume":12.5
+      }
+  }
+}

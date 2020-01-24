@@ -1,0 +1,86 @@
+{
+  "ios" : [
+    {
+      "port": "/dev/ttyACM0"
+    },
+    {
+      "port": "/dev/ttyACM1"
+    },
+    {
+      "port": "/dev/ttyACM2"
+    },
+    {
+      "port": "/dev/ttyACM3"
+    },
+    {
+      "port": "COM3"
+    }
+
+
+  ],
+  "devices": {
+    "X": {
+      "command_id": "X",
+      "config": {
+	      "enabled_acceleration": false,
+	      "reverted_switch": true,
+        "reverted_direction": true,
+        "speed": 8000,
+        "homing_speed": 8000,
+        "max_speed": 8000,
+        "acceleration": 500
+      }
+    },
+    "Y": {
+      "command_id": "Y",
+      "config": {
+        "enabled_acceleration": false,
+        "reverted_switch": true,
+        "reverted_direction": false,
+        "speed": 8000,
+        "homing_speed": 8000,
+        "max_speed": 8000,
+        "acceleration": 3000
+      }
+    },
+    "Z": {
+      "command_id": "Z",
+      "config": {
+	      "enabled_acceleration": false,
+	      "reverted_switch": true,
+        "reverted_direction": true,
+        "speed": 124000,
+        "homing_speed": 24000,
+        "max_speed": 2400,
+        "acceleration": 6000
+      }
+    },
+    "CX": {
+      "command_id": "CX",
+      "config": {
+        "enabled_acceleration": false,
+        "reverted_switch": true,
+        "reverted_direction": false,
+        "speed": 28000,
+        "homing_speed": 28000,
+        "max_speed": 28000,
+        "acceleration": 3000
+      }
+    },
+    "CY": {
+      "command_id": "CY",
+      "config": {
+        "enabled_acceleration": false,
+        "reverted_switch": true,
+        "reverted_direction": false,
+        "speed": 18000,
+        "homing_speed": 18000,
+        "max_speed": 18000,
+        "acceleration": 3000
+      }
+    },
+    "Fan": {
+      "command_id": "Fan"
+    }
+  }
+}
